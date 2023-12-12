@@ -1,0 +1,9 @@
+{
+    "name": "fstudio/recaptcha",
+    "autoload": {
+        "psr-4": {
+            "Fstudio\\Recaptcha\\": "src/"
+        }
+    },
+    "require": {}
+}
