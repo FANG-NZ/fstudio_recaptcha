@@ -40,7 +40,7 @@ class ReCAPTCHA{
         $output = curl_exec($ch);
         curl_close($ch);
 
-        if($output){
+        if(!$output){
             throw new Exception("[Google reCAPTCHA] CURL post request error");
         }
 
